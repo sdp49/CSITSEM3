@@ -1,1 +1,1 @@
-# CSITSEM3
+# A repository for learning Basic HTML
