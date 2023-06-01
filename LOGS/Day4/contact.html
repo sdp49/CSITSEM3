@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Contact Page</title>
+        <!-- add google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- Link my styles -->
+        <link rel="stylesheet" href="contact.css" />
+    </head>
+    <!-- start of body -->
+    <body>
+        <div class="header">
+            This is header.
+        </div>
+        <div class="nav">
+            <ul class="menu-items">
+                <li><a target="_blank" href="index.html">Home</a></li>
+                <li><a href="#first">First Section</a></li>
+                <li><a href="#second">Second Section</a></li>
+                <li><a href="#third">Third Section</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="row">
+                <div class="left-side">
+                    <h2>Contact Information</h2>
+                    <p><strong>Phone:</strong><span>012345678</span></p>
+                    <p><strong>Email:</strong><span>email@example.com</span></p>
+                    <p><strong>Location:</strong><span>Chabahil, Kathmandu</span></p>
+                    <h2>Map</h2>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7064.3149213023935!2d85.34460809999999!3d27.712424199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1970a9ff7041%3A0xfcaa45db29104458!2sTexas%20International%20College!5e0!3m2!1sen!2snp!4v1685592424202!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <h2>Form</h2>
+                    <div class="contact-form">
+                        <form action="" method="get" enctype="multipart/form-data">
+                            <fieldset>
+                                <legend>Contact Form</legend>
+                                <div class="field-wrap">
+                                    <label for="first_name">First Name</label>
+                                    <input type="text" name="first_name" id="first_name" />
+                                </div>
+                                <div class="field-wrap">
+                                    <label for="last_name">Last Name</label>
+                                    <input type="text" name="last_name" id="last_name" />
+                                </div>
+                                <div class="field-wrap">
+                                    <label for="email_address">Email Address</label>
+                                    <input type="email" name="email_address" id="email_address" />
+                                </div>
+                                <div class="field-wrap">
+                                    <label for="dob">Date of Birth</label>
+                                    <input type="date" name="dob" id="dob" />
+                                </div>
+                                <div class="field-wrap">
+                                    <label for="phone_num">Phone Number</label>
+                                    <input type="tel" name="phone_num" id="phone_num" />
+                                </div>
+                                <div class="field-wrap">
+                                    <label for="photo">Photo</label>
+                                    <input type="file" name="photo" id="photo" />
+                                </div>
+                                <div class="field-wrap">
+                                    <label for="faculty">Faculty</label>
+                                    <select name="faculty" id="faculty">
+                                        <optgroup label="Intermediate">
+                                            <option value="option-1">Option 1</option>
+                                            <option value="option-2">Option 2</option>
+                                            <option value="option-3">Option 3</option>
+                                        </optgroup>
+                                        <optgroup label="Bachelor">
+                                            <option>Option 4</option>
+                                            <option>Option 5</option>
+                                            <option>Option 6</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="field-wrap">
+                                    <label for="faculty-multiple">Faculty Multiple</label>
+                                    <select name="faculty-multiple[]" id="faculty-multiple" multiple="multiple">
+                                        <optgroup label="Intermediate">
+                                            <option value="option-1">Option 1</option>
+                                            <option value="option-2">Option 2</option>
+                                            <option value="option-3">Option 3</option>
+                                        </optgroup>
+                                        <optgroup label="Bachelor">
+                                            <option>Option 4</option>
+                                            <option>Option 5</option>
+                                            <option>Option 6</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="field-wrap">
+                                    <label>Level</label>
+                                    <div>
+                                        <label for="level">
+                                            <input type="radio" name="level" id="level" value="plus2" />
+                                            Plus Two
+                                        </label>
+                                        <label for="level-2">
+                                            <input type="radio" name="level" id="level-2" value="bachelor" />
+                                            Bachelor
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="field-wrap">
+                                    <label>Hobbies</label>
+                                    <div>
+                                        <label for="hobbies">
+                                            <input type="checkbox" name="hobbies[]" id="hobbies" value="playing" />
+                                            Playing
+                                        </label>
+                                        <label for="hobbies-2">
+                                            <input type="checkbox" name="hobbies[]" id="hobbies-2" value="reading" />
+                                            Reading
+                                        </label>
+                                        <label for="hobbies-3">
+                                            <input type="checkbox" name="hobbies[]" id="hobbies-3" value="travelling" />
+                                            Travelling
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="field-wrap">
+                                    <input type="submit" name="submit_btn" id="submit_btn" value="Submit Form" />
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            Copyright &copy; 2023
+        </div>
+    </body>
+</html>
