@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header, .footer {
+    text-align: center;
+    padding: 20px;
+    background: #ccc;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    background: #f8dbdb;
+    justify-content: space-evenly;
+}
+.nav ul li a {
+    padding: 10px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #000;
+}
+.nav ul li a:hover {
+    background: #ccc;
+}
+.row {
+    display: flex;
+}
+.left-side {
+    flex: 30%;
+    background: #bed3d6;
+    padding: 2%;
+}
+.right-side {
+    flex: 70%;
+    padding: 2%;
+}
+.field-wrap {
+    display: flex;
+    margin: 15px;
+}
+.field-wrap label {
+    margin-right: 10px;
+    min-width: 30%;
+}
